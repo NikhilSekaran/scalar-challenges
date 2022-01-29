@@ -1,0 +1,19 @@
+Given an array A of N distinct and positive elements, the task is to find number of unordered pairs whose sum already exists in given array.
+
+Expected Complexity : n^2
+
+CONSTRAINTS
+
+1 <= N <= 1000
+1 <= A[i] <= 10^6 + 5
+SAMPLE INPUT
+
+A : [ 3, 4, 2, 6 ,7]
+SAMPLE OUTPUT
+
+2
+EXPLANATION
+
+The pairs following the conditions are : 
+(2,4) = 6,
+(3,4) = 7
